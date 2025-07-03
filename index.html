@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carl Wang</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 2em;
+            line-height: 1.6;
+            color: #333;
+        }
+        h1, h2, h3 {
+            color: #0056b3;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .flag-link {
+            display: inline-block;
+            margin-right: 0.5em;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #ccc;
+            margin: 1em 0;
+        }
+        .menu {
+            margin-bottom: 1em;
+        }
+        .menu a {
+            margin-right: 1em;
+        }
+        #projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 1em;
+        }
+        .project-item {
+            padding: 1em;
+            border: 1px solid #eee;
+            border-radius: 5px;
+        }
+        .project-item h3 {
+            margin-top: 0;
+        }
+        .project-links a {
+            margin-right: 1em;
+        }
+        .contact-links a {
+            margin-right: 1em;
+        }
+        .copyright {
+            margin-top: 2em;
+            font-size: 0.8em;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hello, my name is Carl</h1>
+    <hr>
+
+    <p>Hello! I'm Carl Wang, a junior at Washington University in St. Louis majoring in Computer Science with a minor in Human-Computer Interaction. Growing up in a small city near Hong Kong shaped my fluency in English, Cantonese, and Chinese, and sparked my deep appreciation for diverse cultures.</p>
+
+    <p>Over the past five years, I’ve worked as a freelance Android developer, refining my skills in both mobile and web development. I’m also passionate about exploring how computers can better interact with humans—whether through thoughtful design or innovative applications in automotive and traffic systems. I look forward to connecting and collaborating on projects that push technology forward.</p>
+
+    <hr>
+
+    <div class="menu">
+        <h2>Menu</h2>
+        <ul>
+            <li><a href="#my-experience">My experience</a></li>
+            <li><a href="./resume.pdf">Resume</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contacts</a></li>
+			<li><a href="https://carlw8751.blogspot.com/">My Blog (EXTERNAL)</a></li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <section id="my-experience">
+        <h2>My experience</h2>
+		
+        <div class="experience-item">
+            <h3>Recreational Services Host</h3>
+            <p><em>May 2025- Present</em><br>
+				Currently a recreational services host at Washington University in St. Louis's Sumer's Recreation Center.</p>
+        </div>
+		
+        <div class="experience-item">
+            <h3>Facility Host</h3>
+            <p><em>May 2025- Present</em><br>
+				Currently a facility host at Washington University in St. Louis's Sumer's Recreation Center.</p>
+        </div>
+		
+        <div class="experience-item">
+            <h3>Teaching Assistant for Web Development</h3>
+            <p><em>Jan 2025 - May 2025</em><br>
+            I was a Teaching Assistant for an entry-level Web Development class. I worked with other TAs to answer students' questions and grade homework.</p>
+        </div>
+
+        <div class="experience-item">
+            <h3>Teaching Assistant for Creative Programming and Rapid Prototyping Class</h3>
+            <p><em>Aug 2024 - May 2025</em><br>
+            I collaborated with other TAs to answer student questions, host office hours, and grade students' works.</p>
+        </div>
+
+        <div class="experience-item">
+            <h3>Software Development Engineering Intern for Papertrail Inc.</h3>
+            <p><em>Jun 2024 - Aug 2024</em><br>
+            Worked with the engineering team to deliver high-quality and expandable code to create a better user experience. Also tested and reported integral functions of the project before deployment.</p>
+        </div>
+
+        <div class="experience-item">
+            <h3>Teaching Assistant for Introduction to Computer Engineering</h3>
+            <p><em>Aug 2023 - Jun 2024</em><br>
+            Assisted with student questions, hosted office hours, graded students' work, and proctored exams.</p>
+        </div>
+
+        <div class="experience-item">
+            <h3>Co-Author for A Survey of Deep Learning Based Object Detection</h3>
+            <p><em>Published Jan 2021</em><br>
+            <a href="https://ieeexplore.ieee.org/abstract/document/9731010">See more</a></p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="projects">
+        <h2>Projects</h2>
+		<div class="project-item">
+			<h3>Traffic ML Models</h3>
+			<p>My experiments on machine learning models (YOLOv5, CNN) on identifying traffic signs and traffic lights. Optimized for mobile and computationally limited devices</p>
+			<span class="project-links"><a href="https://github.com/cwong8751/traffic_ml_models">Github Repo</a>
+			</div>
+		<div class="project-item">
+			<h3>Gaslogger</h3>
+			<p>A swift app to track your fuel usage.</p>
+			<span class="project-links"><a href="https://github.com/cwong8751/gaslogger">Github Repo</a>
+			</div>
+		<div class="project-item">
+			<h3>StudySpot</h3>
+			<p>A workplace/campus tabling solution powered by crowdsourcing. Written in sqlite, vue.js</p>
+			<span class="project-links"><a href="https://github.com/cwong8751/StudySpot">Github Repo</a>
+			</div>
+        <div class="project-item">
+            <h3>lsmaps</h3>
+            <p>A web app that gives riders of bicycles, scooters and motorcycles safe and friendly directions.<br>
+            <span class="project-links"><a href="https://github.com/cwong8751/lsMaps">GitHub Repo</a> | <a href="https://cwong8751.github.io/lsMaps/">Web App</a></span></p>
+        </div>
+
+        <div class="project-item">
+            <h3>Speedometer</h3>
+            <p>An Android project turning old phones into popular bicycle/e-bike trip trackers and speedometers, achieving 700+ downloads.<br>
+            <span class="project-links"><a href="https://github.com/cwong8751/speedometer-legacy">Github Repo</a></span></p>
+        </div>
+		
+        <div class="project-item">
+            <h3>Quick</h3>
+            <p>Quick is a notes app that I built in android that supports custom font and color typing, as well as cloud integration via Firebase. This app got over 450 downloads.<br>
+            <span class="project-links"><a href="https://github.com/cwong8751/quick-legacy">Github Repo</a></span></p>
+        </div>
+
+        <div class="project-item">
+            <h3>clock</h3>
+            <p>A web implementation of a clock seen on a building in NYC.<br>
+            <span class="project-links"><a href="clock.html">Web App</a></span></p>
+        </div>
+
+        <div class="project-item">
+            <h3>jautofiller</h3>
+            <p>A Chrome extension that autofills personal information on job applications.<br>
+            <span class="project-links"><a href="https://github.com/cwong8751/jAutofill">GitHub Repo</a></span></p>
+        </div>
+
+        <div class="project-item">
+            <h3>personal property tax calculator</h3>
+            <p>Helps calculate your personal property tax bill.<br>
+            <span class="project-links"><a href="https://github.com/cwong8751/ppt-calculator">GitHub Repo</a> | <a href="https://cwong8751.github.io/ppt-calculator/">Web App</a></span></p>
+        </div>
+
+        <div class="project-item">
+            <h3>pan-demonium</h3>
+            <p>A vampire survivor-type game where you are a chef fighting food. Built with classmates using Unity.<br>
+            <span class="project-links"><a href="https://github.com/cwong8751/450project">GitHub Repo</a> | <a href="https://yosenky.itch.io/pan-demonium">Play</a></span></p>
+        </div>
+		
+        <div class="project-item">
+            <h3>pan-demonium 2</h3>
+            <p>Pan-demonium 2! Play as an egg as you fight waves of foods trying to kill you to see who is the best breakfast food!<br>
+            <span class="project-links"><a href="https://yosenky.itch.io/pan-demonium-2">Play</a></span></p>
+        </div>
+
+        <div class="project-item">
+            <h3>drivelog</h3>
+            <p>An iOS app that tracks car and motorcycle riding trips.<br>
+            <span class="project-links"><a href="https://github.com/cwong8751/DriveLog">GitHub Repo</a></span></p>
+        </div>
+    </section>
+
+    <hr>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <div class="contact-links">
+            <a href="mailto:carlwang.dev@gmail.com">E-mail</a> |
+            <a href="https://www.linkedin.com/in/carl-wang-922a102b0/">LinkedIn</a> |
+            <a href="https://github.com/cwong8751">Github</a>
+        </div>
+    </section>
+
+    <hr>
+
+    <p class="copyright">© 2018-2024 Carl's website | Thank you for visiting</p>
+
+</body>
+</html>
