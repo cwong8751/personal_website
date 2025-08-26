@@ -69,13 +69,13 @@ This is a project that I worked on with a colleague during my time at the Jacob 
 
 [Link to Project](https://sites.wustl.edu/greenberglab/synaptrack/)
 
-### Traffic ML Models
-My experiments on machine learning models (YOLOv5, CNN) on identifying traffic signs and traffic lights. Optimized for mobile and computationally limited devices.  
-[GitHub Repo](https://github.com/cwong8751/traffic_ml_models)
-
 ### Gaslogger
 A swift app to track your fuel usage.  
 [GitHub Repo](https://github.com/cwong8751/gaslogger)
+
+### Traffic ML Models
+My experiments on machine learning models (YOLOv5, CNN) on identifying traffic signs and traffic lights. Optimized for mobile and computationally limited devices.  
+[GitHub Repo](https://github.com/cwong8751/traffic_ml_models)
 
 ### StudySpot
 A workplace/campus tabling solution powered by crowdsourcing. Written in sqlite, vue.js.  
