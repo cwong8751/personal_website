@@ -29,6 +29,7 @@ Over the past five years, I’ve worked as a freelance Android developer, refini
 
 ### Android Development Intern for Jacob Greenberg Lab @ Washington University School of Medicine
 *May 2025 - Present*
+
 I worked with colleagues at the Jacob Greenberg Lab to develop the Android version of the Synaptrack app. 
 
 ### Recreational Services Host  
