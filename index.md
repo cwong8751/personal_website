@@ -25,6 +25,10 @@ Over the past five years, I’ve worked as a freelance Android developer, refini
 
 ## My experience
 
+### Android Development Intern for Jacob Greenberg Lab @ Washington University School of Medicine
+*May 2025 - Present*
+I worked with colleagues at the Jacob Greenberg Lab to develop the Android version of the Synaptrack app. 
+
 ### Recreational Services Host  
 *May 2025 - Aug 2025*  
 I worked as a recreational services host at Washington University in St. Louis's Sumer's Recreation Center.
@@ -33,11 +37,11 @@ I worked as a recreational services host at Washington University in St. Louis's
 *May 2025 - Aug 2025*  
 I worked as a facility host at Washington University in St. Louis's Sumer's Recreation Center.
 
-### Teaching Assistant for Web Development  
+### Teaching Assistant for Web Development CSE 204
 *Jan 2025 - Present*  
 I was a Teaching Assistant for an entry-level Web Development class. I worked with other TAs to answer students' questions and grade homework.
 
-### Teaching Assistant for Creative Programming and Rapid Prototyping Class  
+### Teaching Assistant for Creative Programming and Rapid Prototyping Class CSE 330
 *Aug 2024 - Present*  
 I collaborated with other TAs to answer student questions, host office hours, and grade students' works.
 
@@ -56,6 +60,11 @@ Assisted with student questions, hosted office hours, graded students' work, and
 ---
 
 ## Projects
+
+### Synaptrack
+This is a project that I worked on with a colleague during my time at the Jacob Greenberg Lab @ WashU Med School. It is a currently ongoing project and we are in alpha testing. 
+
+[Link to Project](https://sites.wustl.edu/greenberglab/synaptrack/)
 
 ### Traffic ML Models
 My experiments on machine learning models (YOLOv5, CNN) on identifying traffic signs and traffic lights. Optimized for mobile and computationally limited devices.  
