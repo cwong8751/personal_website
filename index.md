@@ -13,6 +13,8 @@ Over the past five years, I’ve worked as a freelance Android developer, refini
 
 ---
 
+![My photo](./myface.png)
+
 ## Menu
 
 - [My experience](#my-experience)  
