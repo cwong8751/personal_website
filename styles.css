@@ -1,0 +1,62 @@
+header{
+    background-color: #FFC727;
+    padding: 2rem 2rem;
+    font-family: "Archivo", sans-serif;
+    display: flex; align-items: center; justify-content: space-between;
+}
+
+h1{
+    font-family: "Archivo", sans-serif;
+}
+
+h2, h3, h4, h5, h6{
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+body{
+    background-color: #FAFAFA;
+    line-height: 2;
+}
+
+main {
+    padding: 3rem 2rem;
+    font-family: "Noto Sans", sans-serif;
+}
+
+a {
+    font-family: "IBM Plex Mono", monospace;
+    text-decoration: none;
+    color: #E03C31;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    padding: 1rem 2rem;
+    background-color: #E03C31;
+    opacity: 0.8;
+    color: white;
+    font-size: "Noto Sans", sans-serif;
+    border: none;
+    font-weight: semi-bold;
+    border-radius: 2px;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+footer{
+    padding: 2rem;
+    text-align: center;
+    font-family: "Noto Sans", sans-serif;
+    background-color: #4D4D4D;
+    color: white;
+    font-weight: bold;
+}
